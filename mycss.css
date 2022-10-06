@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homepage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.homepage article{
+    width: 70%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage article h1{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size:80px;
+    font-weight: 400;
+    color: white;
+}
+
+.homepage article button{
+    width: 30%;
+    height: 30%;
+    /* border: 1px solid black; */
+    background-color: royalblue;
+    box-shadow: 0px 0px 3px 1px whitesmoke;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    margin: 50px;
+
+}
+
+.questionsection{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionsection .questionblock{
+    width: 50%;
+    height: 60%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 50px;
+    border-radius: 20px;
+}
+
+.questionsection .questionblock h1{
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.questionsection .questionblock ul{
+list-style: none;
+/* border: 1px solid white; */
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+height: 60%;
+justify-content: space-between;
+}
+
+.questionsection .questionblock ul li{
+    border: 1px solid #333;
+    width: 100%;
+    height: 18%;
+    border-radius: 10px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.questionsection .questionblock ul li:hover{
+    background-color: #222;
+}
+
+.questionsection .questionblock button{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #555;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.questionsection .questionblock button:hover{
+    background-color: lightcoral;
+    color: black;
+}
+
+.scoreblock{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.scoreblock article{
+    width: 30%;
+    height: 30%;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.scoreblock article h1{
+    width: 60%;
+    height: 20%;
+    font-size: 25px;
+}
+
+.scoreblock article button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 0px 2px 1px #444;
+    margin: 20px;
+}
+
+.scoreblock article button:hover{
+    background-color: royalblue;
+    color: black    ;
+}
+
+.timings{
+    color: white;
+    font-size: 25px;
+}
+
+
